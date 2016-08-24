@@ -1,0 +1,30 @@
+# s= '''This is the string
+# with the multiple line
+# This will contain both uppercase and
+# lowercase letters . This string can be split
+# '''
+# print s.upper().count("g")
+# print s.splitlines()
+# print s.islower()
+#
+#
+#
+
+
+
+# string = "name=umesh&city=bangalore&company=razorthink"
+# details=string.split("&")
+# # details.append("karnataka")
+# print details
+# details_list=[v.split("=") for v in details]
+# print details_list
+# mydict =dict(details_list)
+# print mydict
+
+
+string= "This string can be sliced"
+# print string[5:15]
+print (string[:15])
+# print string[15:]
+# print string[5:-3]
+

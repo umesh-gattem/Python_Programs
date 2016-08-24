@@ -1,0 +1,12 @@
+def writeToFile() :
+	file=open("file.txt", "r+")
+	print ("File name is :" , file.name)
+	print ("File mode is :" ,file.mode)
+	file.write("File opened in read mode  ")
+	print ("Is file closed :" ,file.closed)
+	file=open("file.txt", "r+")
+	str=file.read(5)
+	print ("File read is " ,str)
+	file.close()
+	print ("Is file closed :" , file.closed)
+writeToFile()
