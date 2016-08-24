@@ -26,6 +26,6 @@ for guess in itertools.permutations(digits, len(ascii_values)):     # Checking f
         if eval(equation):           # Evaluating equation whether equation is true or not.
             print(equation)
             print("Got it")
-            break;
+            break
 
 
